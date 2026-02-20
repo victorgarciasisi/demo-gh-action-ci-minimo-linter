@@ -14,5 +14,3 @@ def normalize_name(name: str) -> str:
 def greeting(name: str) -> str:
     clean = normalize_name(name)
     return f"Hola, {clean}!"
-
-
