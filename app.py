@@ -3,6 +3,8 @@
 Código deliberadamente pequeño para centrar el vídeo en calidad básica.
 """
 
+import os
+
 from __future__ import annotations
 
 
@@ -14,3 +16,4 @@ def normalize_name(name: str) -> str:
 def greeting(name: str) -> str:
     clean = normalize_name(name)
     return f"Hola, {clean}!"
+
