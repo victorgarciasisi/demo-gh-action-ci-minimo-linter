@@ -1,0 +1,2 @@
+# Dependencias mínimas para la demo de lint + formato
+ruff==0.9.7

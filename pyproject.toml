@@ -1,0 +1,6 @@
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+# Reglas mínimas para empezar: estilo básico + errores comunes
+select = ["E", "F"]
